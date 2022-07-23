@@ -19,9 +19,10 @@ form select, option, button{
     font-size: 1.5rem;
 }
 .form{
-    margin: 15%  auto;
+    margin: 15% auto;
     /* border: 2px solid yellow; */
     padding: 20px;
+    
 }
 #display{
     margin-top: -10%;
@@ -34,9 +35,21 @@ select{
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 button{
     padding: 10px;
     border-radius: 8px;
     width: 150px;
+}
+@media (max-width: 455px) {
+    button, select, display{
+        width: 100%;
+    }
+    option{
+        font-size: 0.75rem;
+    }
+
+    
 }
